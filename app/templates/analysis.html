@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h2>Analysis Results</h2>
+    <h2>Analysis Results for {{ restaurant_name }}</h2>
     <p>Positive Reviews: {{ sentiments['positive'] }}</p>
     <p>Neutral Reviews: {{ sentiments['neutral'] }}</p>
     <p>Negative Reviews: {{ sentiments['negative'] }}</p>
